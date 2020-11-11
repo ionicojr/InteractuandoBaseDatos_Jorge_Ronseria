@@ -1,5 +1,5 @@
 <?php 
-	require('conector.php');
+	require('conector.php'); 
 	$con = new conectorBD();
 	$response['conexion'] = $con->initConexion($con->database);
 
